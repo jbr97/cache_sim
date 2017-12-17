@@ -1,14 +1,14 @@
 CACHE simulator
 ===
 Author: Jiang Borui  
-Date: 2017/11/25 
+Date: 2017/12/17 
 
 ### How to compiler and run
 
 ```
 $ cd /DIR/TO/THE/SIMULATOR/
 $ make
-$ ./simulator /DIR/TO/THE/TRACEFILE
+$ ./sim /DIR/TO/THE/TRACEFILE < cache.cfg
 ```
 
 Then the simulator will run to terminate and print the cache infomations like:  
@@ -17,8 +17,8 @@ Level ... Cache info:
 access_counter: ...
 miss_num: 		...
 miss_rate: 		...%
-access_cycle: 	...
-replace_num:	...
+access_cycle:		...
+replace_num:		...
 fetch_num: 		...
 
 Level ...
